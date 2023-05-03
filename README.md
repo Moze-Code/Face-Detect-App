@@ -17,5 +17,9 @@ pip install opencv-python
 ```python
 import cv2
 ```
+### Installing Flask
+```bash
+pip install flask
+```
 
 
