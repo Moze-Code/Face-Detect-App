@@ -1,2 +1,7 @@
 # Face-Detect-App
-An App that detects faces using the OpenCV Library.
+
+The Face Detect App is an application that detects faces in an image, real time video or a pre-recorded video.
+
+## Library Used
+
+OpenCV- An online library for computer vision
