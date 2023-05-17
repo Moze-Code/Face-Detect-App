@@ -5,6 +5,8 @@ The Face Detect App is an application created in python that detects faces in an
 ## Technologies Used:
 
 * OpenCV- An online library for computer vision
+* Html- Defines the contents visible on the webpage
+* CSS- Styles the contents on the webpage
 
 ## Getting Started
 
