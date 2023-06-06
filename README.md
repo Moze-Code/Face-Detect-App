@@ -1,6 +1,6 @@
 # Face-Detect-App
 
-Current personal project that detects faces on an image
+The Face Detect App is an application created in python that detects faces in an image, real time video or a pre-recorded video.
 
 ## Technologies Used:
 
