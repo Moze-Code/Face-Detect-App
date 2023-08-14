@@ -1,9 +1,68 @@
 body {
-    background-color: rgb(154, 167, 162);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: lightgray;
+}
+  
+.entire-webpage {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(39, 183, 226);
+    border: 1px solid gray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding-bottom: 0px;
+    font-family: Arial, Helvetica;
+}
+  
+.discription {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica;
+    font-weight: bold;
+}
+
+.owner-label {
+    margin-top: 100px;
+}
+
+input[type="file"]::file-selector-button {
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    border: none;
+    background: #084cdf;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+    
+}
+
+input[type="submit"] {
+    padding-top: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-right: 20px;
+    margin-right: 20px;
+    border: none;
+    background: #17f503be;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    transition: background .2s ease-in-out;  
 }
 
 
-.entire-webpage {
-    
-    text-align: center;
+
+
+p {
+    font-family: Arial, Helvetica;
+    font-weight: bold;
+    font-style: italic;
 }
