@@ -17,7 +17,7 @@ The Face Detect App is an application created in python that detects faces in an
 
 
 
-##Future Improvements:
+## Future Improvements:
 
 
 
