@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Face Detection App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+  </head>
+  <body>
+    <div class="entire-webpage">
+      <h1>
+        Welcome to the Face Detector app!
+      </h1>
+      <div>
+        To detect faces, you can import a Photo, Video, or use your computer's webcam to detect a face.
+      </div>
+
+      <div>
+        <form method="POST" enctype="multipart/form-data">
+          {{form.hidden_tag() }}
+          {{form.file() }}
+          {{form.submit() }}
+        </form>
+      </div>
+
+      <div class="owner-label">
+        <p>
+          Created by Omoze
+        </p>
+
+      </div>
+
+    </div>
+
+   
+  </body>
+</html>
