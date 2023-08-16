@@ -40,7 +40,8 @@ def homePage():
             # Perform face detection on the uploaded image using OpenCV
             image = cv2.imread(filepath)
             gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-            face_data = cv2.CascadeClassifier('AI Face Detector App Project\haarcascade_frontalface_default.xml')
+            face_data = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+            #face_data = cv2.CascadeClassifier('AI Face Detector App Project\haarcascade_frontalface_default.xml')
             detected_faces = face_data.detectMultiScale(gray_image)
 
             # Draw rectangles around the detected faces
