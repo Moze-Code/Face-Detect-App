@@ -12,7 +12,7 @@ https://omoze.pythonanywhere.com/home
 * CSS- Styles the contents on the webpage
 * Python- For backend
 * Flask- Web Framework that ties the previously listed technologies
-* Pythonanywhere- Host Webserver
+* Pythonanywhere- Webserver Host
 
 ## Output:
 ![image](https://github.com/Moze-Code/Face-Detect-App/assets/83746252/16b7234e-17fe-4e6b-9a99-1ee06ae90eea)
