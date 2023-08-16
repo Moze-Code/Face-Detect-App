@@ -2,6 +2,9 @@
 
 The Face Detect App is an application created in python that detects faces in an image
 
+## Website URL:
+https://omoze.pythonanywhere.com/home
+
 ## Technologies Used:
 
 * OpenCV- An online library for computer vision
@@ -9,6 +12,7 @@ The Face Detect App is an application created in python that detects faces in an
 * CSS- Styles the contents on the webpage
 * Python- For backend
 * Flask- Web Framework that ties the previously listed technologies
+* Pythonanywhere- Host Webserver
 
 ## Output:
 ![image](https://github.com/Moze-Code/Face-Detect-App/assets/83746252/16b7234e-17fe-4e6b-9a99-1ee06ae90eea)
@@ -20,7 +24,7 @@ The Face Detect App is an application created in python that detects faces in an
 ## Future Improvements:
 * Add support for Webcam and Video Upload
 * Improve UI
-* Add Web Host
+
 
 
 
